@@ -11,8 +11,9 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #f0f8ff;
-    padding: 15px 20px;
-    border-bottom: 2px solid #3498db;
+    padding: 10px 10px;
+    border-radius: 50px;
+    
 }
 .header-left{
     display: flex;
@@ -33,6 +34,7 @@ h1{
     margin: 30px 20px;
     border-radius: 50px;
     background-color: aliceblue;
+    font-size: 50px;
 }
 .form-container{
     padding: o 2px;
@@ -75,8 +77,24 @@ textarea {
     margin-bottom: 8px;
 }
 .gender-options {
-    margin: 10px 0;
+    margin: 10px 0
 }
 .gender-options label {
     margin-right: 15px;
+}
+i{
+    color: black;
+    font-size: 30px;
+}
+span{
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+}
+.footer{
+    margin-top: 2px;
+}
+#house-icon{
+    color: black;
+    font-size: 40px;
 }
